@@ -1,0 +1,21 @@
+{
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=180"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        ".",
+        "--exitfirst",
+        "--verbose",
+        "-s"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false
+}
